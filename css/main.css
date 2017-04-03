@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Imprima|Roboto+Slab');
+/*
+Fonts
+
+font-family: 'Roboto Slab', serif;
+font-family: 'Imprima', sans-serif;
+
+COLOR Scheme
+
+#058539
+#088582
+#04546e
+*/
+/* new clearfix */
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+.ge li a{
+    font-size: 0;
+}
+.ge li:first-child a:before{
+    content: url(../img/shower.png);
+    width: 25px;
+    height: 25px;
+   
+}
+
+.ge li:nth-child(2) a:before{
+    content: url(../img/bulb.png);
+    width: 25px;
+    height: 25px;
+   
+}
+
+.ge li:last-child a:before{
+    content: url(../img/solar.png);
+    width: 25px;
+    height: 25px;
+   
+}
+
+
+.mh-image {
+    transition: opacity 1s;
+}
+* {
+    box-sizing: border-box;
+}	
+
+body {	
+    font-family: 'Imprima', sans-serif;
+    margin:0;
+    padding:0;
+    font-size: 0.618rem;
+    line-height: 1.618;
+	
+}
+figcaption {
+    background-color: rgba(8,130,133,0.5);
+    box-sizing: border-box;
+   
+    
+}
+
+
+
+figcaption h1 {
+    color:#04546e;
+   font-family: 'Roboto Slab', serif;
+   margin-bottom: -15px;
+   text-align: center;
+    
+}
+
+figcaption p {
+   font-family: 'Imprima', sans-serif;
+    padding-left: 20px;
+    padding-right:20px;
+    padding-bottom:20px;
+    padding-top:10px;
+    
+    
+}
+
+.logo {
+    background-image: url("../img/mountain.png");
+    
+}
+h3 {
+    font-family: 'Roboto Slab', serif;
+    color: #058539;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+.banner {
+
+    background-color: #088582;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/*-- .content-box styles entire content --*/
+.content-box {
+    text-align: center;
+    margin: 0 1rem;
+   
+}
+img {
+    max-width: 100%;
+}
+
+
+
+
+/*-- NAVIGATION --*/
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    display: block;
+    background-color: #058539;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0 1px 0;
+}
+
+.navbar li a:hover {
+    background-color: #04546e;
+}
+
+
+
+
+/*-- Styling footer --*/
+.footer {
+    background-color: #058539;;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main ul {
+    list-style-type: none;
+}
+
+
+main ul li {
+    display: inline-block;
+    padding:10px;
+  
+}
+.ge {
+        
+       padding-left: 80px;
+       margin 0;
+        
+    }
+h3{
+        padding-left:10px;
+    }
+
+
+ 
+    
+    
+  
+
+
+@media all and (min-width: 35rem)  {
+    
+   img {
+    max-width: 100%;
+}
+ 
+  
+  body {	
+   
+    font-size: 1rem;
+    
+    }
+   
+    
+    
+    .navbar li {
+       display: inline-block;
+       
+    }
+    
+    
+
+    .navbar{
+        overflow: hidden;
+
+    }
+   
+
+  
+    .navbar li a {
+        padding: 20px;
+        margin:10px;
+        display: block;
+        width: 200px;
+        text-align: center;
+    }
+    
+    figcaption h1 {
+        margin-bottom: -15px;
+        text-align: center;
+    }
+    
+    figcaption p {
+        padding: 15px;
+    }
+    
+    figure img {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+    
+    .ge {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    h3{
+        text-align: center;
+    }
+}
+
+
+@media all and (min-width: 60rem)  {
+    
+  img {
+    max-width: 100%;
+}
+
+ .content-box{
+        text-align: left;
+    }     
+. box {
+        text-align: left;
+    }
+ body {	
+    font-size: 1.618rem;
+  
+	
+  }
+ 
+    footer{
+        margin-top: 20px;
+    }    
+    
+   
+    
+   
+    .navbar {
+        width: 100%;
+        overflow: hidden;
+        
+    }
+    
+    .navbar li {
+       display: inline-block;
+      
+    }
+    
+    .navbar li a {
+        padding: 20px;
+        margin:10px;
+        display: block;
+        width: 300px;
+        text-align: center;
+    }
+  
+    main img {
+        width 30%;
+    }
+    
+    
+  main ul li {
+    display: block;
+    padding:10px;
+  
+}
+
+    h3{
+        text-align: left;
+        padding-top:30px;
+        padding-left: 50px;
+       
+    }
+  
+    .logo img {
+        padding-left: 30px;
+      
+}
+    .navbar img {
+        padding-left: 20px;
+    }
+    
+    .mh-image{
+        float:left;
+    }
+   
+.container img {
+    float:left;
+    width: 30%;
+   
+}
+
+.container figcaption {
+    float:left;
+    width: 68%;
+    margin-left: 2%;
+    height:208.94px;
+    
+}
+
+    .container figcaption p{
+        text-align: center;
+        font-size: 1rem;
+    }
+    
+    .container figcaption h1{
+        font-size: 2rem;
+    }
+
+.ge{
+    float: left;
+    width: 8%;
+    padding: 0;
+    margin: 0;
+    margin-left:20px;
+    padding-top: 5px;
+}
+.container{
+   float: left;
+    width: 90%; 
+}
+ 
+    footer p {
+        padding-left: 20px;
+    }
+
+    footer i {
+        padding-left: 20px;
+    }
+    
+    .mh-image{
+    zoom: 2;  
+
+    display: block;
+    margin: auto;
+
+    height: auto;
+    max-height: 100%;
+
+    width: auto;
+    max-width: 100%;
+
+    }
+
+}
